@@ -1,0 +1,45 @@
+#########################
+# Eclipse
+#########################
+.project
+.classpath
+.settings/
+.metadata/
+*.launch
+
+#########################
+# Build output
+#########################
+bin/
+target/
+build/
+out/
+*.class
+
+#########################
+# Java specific
+#########################
+*.log
+*.tmp
+*.bak
+*.swp
+
+#########################
+# OS-specific
+#########################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#########################
+# Others
+#########################
+# IntelliJ IDEA (nếu mở bằng IntelliJ đôi khi sinh ra)
+*.iml
+.idea/
