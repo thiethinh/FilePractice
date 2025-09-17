@@ -1,13 +1,6 @@
 package OOP;
 
 public class Student {
-<<<<<<< HEAD
-
-	public Student() {
-		// TODO Auto-generated constructor stub
-	}
-
-=======
     private String id;
     private String fullName;
     private int age;
@@ -41,5 +34,5 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
->>>>>>> d67204f5c24cc5e24dc1dfcda4e9bf8c109f415a
+
 }
