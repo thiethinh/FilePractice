@@ -1,21 +1,14 @@
 package OOP;
 
-public class Student {
-<<<<<<< HEAD
-
-	public Student() {
-		// TODO Auto-generated constructor stub
-	}
-
-=======
+public class Teacher {
     private String id;
     private String fullName;
-    private int age;
+    private String major;
 
-    public Student(String id, String fullName, int age) {
+    public Teacher(String id, String fullName, String major) {
         this.id = id;
         this.fullName = fullName;
-        this.age = age;
+        this.major = major;
     }
 
     public String getId() {
@@ -34,12 +27,11 @@ public class Student {
         this.fullName = fullName;
     }
 
-    public int getAge() {
-        return age;
+    public String getMajor() {
+        return major;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setMajor(String major) {
+        this.major = major;
     }
->>>>>>> d67204f5c24cc5e24dc1dfcda4e9bf8c109f415a
 }
